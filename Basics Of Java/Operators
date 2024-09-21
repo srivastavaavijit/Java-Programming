@@ -1,0 +1,77 @@
+Operators in Java are special symbols that perform operations on variables and values.
+They can be categorized into several types:
+
+1. Arithmetic Operators:
+---------------------------------
+Used for performing mathematical calculations:
+
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modulus (%): Returns the remainder of a division.
+
+2. Relational Operators:
+-------------------------
+Used to compare two values:
+
+Equal to (==)
+Not equal to (!=)
+Greater than (>)
+Less than (<)
+Greater than or equal to (>=)
+Less than or equal to (<=)
+
+3. Logical Operators:
+------------------------
+Used to combine multiple boolean expressions:
+
+Logical AND (&&)
+Logical OR (||)
+Logical NOT (!)
+
+4. Assignment Operators:
+--------------------------
+Used to assign values to variables:
+
+Simple Assignment (=)
+Add and Assign (+=)
+Subtract and Assign (-=)
+Multiply and Assign (*=)
+Divide and Assign (/=)
+Modulus and Assign (%=)
+
+5. Unary Operators:
+----------------------------
+Operate on a single operand:
+
+Unary Plus (+): Indicates a positive value.
+Unary Minus (-): Negates a value.
+Increment (++): Increases a value by 1.
+Decrement (--): Decreases a value by 1.
+
+6. Bitwise Operators:
+---------------------------
+Perform operations on bits:
+
+AND (&)
+OR (|)
+XOR (^)
+Complement (~)
+Left Shift (<<)
+Right Shift (>>)
+
+7. Ternary Operator:
+------------------------------
+A shorthand for if-else statements:
+
+Syntax: condition ? expression1 : expression2
+Returns expression1 if the condition is true, otherwise returns expression2.
+
+8. instanceof Operator:
+------------------------------
+Checks if an object is an instance of a specific class or subclass.
+
+
+For refernce:
+https://www.geeksforgeeks.org/operators-in-java/
