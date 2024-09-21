@@ -1,0 +1,39 @@
+Decision-making constructs allow you to execute specific blocks of code based on certain conditions.
+In Java, there are several key statements for decision-making:
+
+Example:
+
+import java.util.Scanner;
+
+public class DecisionMakingExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Using if-else statement
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        } else if (number < 0) {
+            System.out.println("The number is negative.");
+        } else {
+            System.out.println("The number is zero.");
+        }
+
+        // Using switch statement
+        switch (number) {
+            case 1:
+                System.out.println("You entered one.");
+                break;
+            case 2:
+                System.out.println("You entered two.");
+                break;
+            default:
+                System.out.println("You entered a number other than one or two.");
+        }
+
+        // Using ternary operator
+        String result = (number % 2 == 0) ? "even" : "odd";
+        System.out.println("The number is " + result + ".");
+    }
+}
