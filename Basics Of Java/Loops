@@ -1,0 +1,51 @@
+Loops in Java allow you to execute a block of code repeatedly based on a condition. 
+Java provides several types of loops, each serving different purposes:
+
+1. for loop:
+-------------------
+The for loop is used when the number of iterations is known beforehand. It consists of three parts: initialization, condition, and increment/decrement.
+for (initialization; condition; update) {
+    // code to be executed
+}
+
+2. while loop:
+--------------------
+The while loop continues executing as long as the specified condition is true. It checks the condition before each iteration.
+while (condition) {
+    // code to be executed
+}
+
+3. do-while loop:
+--------------------
+The do-while loop is similar to the while loop, but it guarantees that the code block will execute at least once, as the condition is checked after the execution.
+do {
+    // code to be executed
+} while (condition);
+
+Example:
+----------------
+public class LoopExample {
+    public static void main(String[] args) {
+        // For Loop
+        System.out.println("For Loop:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteration: " + i);
+        }
+
+        // While Loop
+        System.out.println("\nWhile Loop:");
+        int j = 1;
+        while (j <= 5) {
+            System.out.println("Iteration: " + j);
+            j++;
+        }
+
+        // Do-While Loop
+        System.out.println("\nDo-While Loop:");
+        int k = 1;
+        do {
+            System.out.println("Iteration: " + k);
+            k++;
+        } while (k <= 5);
+    }
+}
