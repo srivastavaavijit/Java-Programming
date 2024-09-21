@@ -1,0 +1,72 @@
+In Java, variables are used to store data that can be changed during program execution.
+
+Types of Variables:;
+-----------------------------------------------------------
+Local Variables:
+------------------
+Declared within a method or block.
+Accessible only within that method or block.
+Must be initialized before use.
+
+Instance Variables:
+-------------------------
+Declared inside a class but outside any method.
+Associated with an instance of a class (i.e., an object).
+Each object has its own copy.
+
+Class Variables (Static Variables):
+--------------------------------------
+Declared with the static keyword.
+Shared among all instances of a class.
+Can be accessed without creating an object of the class.
+
+Variable Declaration and Initialization:
+-------------------------------------------------
+Declaration:
+----------------
+You define a variable by specifying its type and name (e.g., int age;).
+
+Initialization: 
+------------------
+Assigning a value to a variable (e.g., age = 25;).
+Variables can be declared and initialized in a single statement (e.g., int age = 25;).
+
+Naming Conventions:
+--------------------------
+Follow the rules for identifiers (must start with a letter, cannot be a keyword).
+Use meaningful names that convey the purpose of the variable.
+Use camelCase for multi-word variable names (e.g., totalAmount).
+
+Example:
+------------------------------------------
+public class VariableExample {
+
+    // Class variable (static)
+    static int classVariable = 10;
+
+    // Instance variable
+    int instanceVariable;
+
+    // Constructor to initialize the instance variable
+    public VariableExample(int value) {
+        this.instanceVariable = value;
+    }
+
+    public void displayVariables() {
+        // Local variable
+        int localVariable = 5;
+
+        // Displaying the values
+        System.out.println("Class Variable: " + classVariable);
+        System.out.println("Instance Variable: " + instanceVariable);
+        System.out.println("Local Variable: " + localVariable);
+    }
+
+    public static void main(String[] args) {
+        // Creating an object of VariableExample
+        VariableExample example = new VariableExample(20);
+
+        // Calling the method to display variable values
+        example.displayVariables();
+    }
+}
