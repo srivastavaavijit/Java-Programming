@@ -1,0 +1,12 @@
+Identifiers in Java are names used to identify variables, classes, methods, and other user-defined items. 
+
+Rules for Naming Identifiers:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Character Set: Identifiers can include letters (uppercase and lowercase), digits (0-9), underscores (_), and dollar signs ($).
+Starting Character: Identifiers must start with a letter, underscore, or dollar sign; they cannot start with a digit.
+Case Sensitivity: Identifiers are case-sensitive, meaning variable, Variable, and VARIABLE are considered different.
+Length: There is no strict limit on the length of identifiers, but keeping them concise is good practice.
+Keywords: Identifiers cannot be keywords (reserved words) in Java, such as class, public, or void.
+
+For reference:
+https://www.geeksforgeeks.org/java-identifiers/?ref=lbp
