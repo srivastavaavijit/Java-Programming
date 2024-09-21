@@ -1,0 +1,21 @@
+In Java, data types specify the kind of data a variable can hold. They are broadly categorized into two main types: primitive types and reference types.
+
+1. Primitive Data Types
+These are the most basic data types and include:
+
+int: Integer values (e.g., int age = 25;)
+double: Floating-point numbers (e.g., double price = 19.99;)
+char: Single 16-bit Unicode characters (e.g., char initial = 'A';)
+boolean: Represents true or false values (e.g., boolean isJavaFun = true;)
+byte: 8-bit integer (e.g., byte b = 100;)
+short: 16-bit integer (e.g., short s = 10000;)
+long: 64-bit integer (e.g., long l = 100000L;)
+float: 32-bit floating-point number (e.g., float pi = 3.14f;)
+2. Reference Data Types
+These types refer to objects and can hold references to data rather than the data itself:
+
+Classes: User-defined data types (e.g., String name = "John";)
+Arrays: Collections of similar data types (e.g., int[] numbers = {1, 2, 3};)
+Interfaces: Abstract data types that define a contract for classes.
+
+For reference: https://www.geeksforgeeks.org/data-types-in-java/?ref=lbp
