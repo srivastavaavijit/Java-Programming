@@ -1,4 +1,5 @@
-In Java, data types specify the kind of data a variable can hold. They are broadly categorized into two main types: primitive types and reference types.
+In Java, data types specify the kind of data a variable can hold. 
+They are broadly categorized into two main types: primitive types and reference types.
 
 1. Primitive Data Types
 These are the most basic data types and include:
