@@ -1,0 +1,31 @@
+package introduction.ExceptionHandling.tryCatchFinally;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] a = new int[5];
+
+        System.out.println("Before the exception.");
+
+        try{
+            System.out.println(a[8]);
+        }
+
+        catch(Exception e){
+            System.out.println("Handling the exception.");
+        }
+
+        // finally block will always execute no matter if exception
+        // occurs or not in try block.
+        // Finally block can be used only once.
+
+        finally {
+            // Finally block don't run when an exception occurs inside it.
+//            System.out.println(a[9]);
+            System.out.println("I will run always.");
+        }
+
+        System.out.println("After the exception.");
+
+    }
+}
